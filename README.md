@@ -13,7 +13,7 @@ singularity build pointwise_containers.sif Singularity.local
 ### Singularity Hub build
 Upload the installer to a temporary location via [file.io](https://www.file.io/)
 ~~~~
-./upload_files.sh
+./upload_files.sh <Installer_Dir>
 ~~~~
 Fill in the links in the recipe
 ~~~~
