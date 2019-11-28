@@ -36,7 +36,7 @@ singularity pull shub://stephansmit/pointwise_containers
 
 To execute a pointwise script:
 ~~~~
-SINGULARITYENV_pwid_License=<port>@<host> singularity exec pointwise_containers.sif /opt/pointwise/pointwise -b <script-name>
+SINGULARITYENV_pwid_LICENSE=<port>@<host> singularity exec pointwise_containers.sif /opt/pointwise/pointwise -b <script-name>
 ~~~~
 where  `<port>` and `<host>` point to the license server
 
